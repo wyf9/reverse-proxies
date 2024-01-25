@@ -1,0 +1,44 @@
+{
+    "rewrites": [
+        {
+            "source": "/_/:match/:url*",
+            "destination": "http://:match/:url*"
+        },
+        {
+            "source": "/_/:match/:url*/",
+            "destination": "http://:match/:url*/"
+        },
+        {
+            "source": "/_s/:match/:url*/",
+            "destination": "https://:match/:url*/"
+        },
+        {
+            "source": "/_s/:match/:url*/",
+            "destination": "https://:match/:url*/"
+        },
+        {
+            "source": "/ghsrc/:match*",
+            "destination": "https://ghsrc.wyf9.top/:match*"
+        },
+        {
+            "source": "/ghsrc/:match*/",
+            "destination": "https://ghsrc.wyf9.top/:match*/"
+        },
+        {
+            "source": "/wist/:match*",
+            "destination": "https://wist.wyf9.top/:match*"
+        },
+        {
+            "source": "/wist/:match*/",
+            "destination": "https://wist.wyf9.top/:match*/"
+        },
+        {
+            "source": "/gh/:match*",
+            "destination": "https://github.com/:match*"
+        },
+        {
+            "source": "/gh/:match*/",
+            "destination": "https://github.com/:match*/"
+        }
+    ]
+}
