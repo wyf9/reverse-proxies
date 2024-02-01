@@ -1,8 +1,8 @@
 # Vercel 部署
 
-## 简介
+## 限制
 
-本项目可以使用 Vercel 来反代任意、自定义网址
+Vercel 的免费计划每月限制 **100G** 出站流量, 可付费升级计划
 
 ## 使用
 
@@ -11,14 +11,14 @@
    - HTTPS: 在网址前加上 `<自定义域名/_s/>`
 2. 自定义网址
    - 将网址的域名替换为 `<自定义域名>/<自定义名称>`
-   - 示例: `github.com/wyf9/proxy-vercel` -> `example.org/gh/wyf9/proxy-vercel`
+   - 示例: `github.com/wyf9/abc` -> `example.org/gh/wyf9/abc`
 
 ## 部署
 
 ### 要求
 
 1. 一个域名(非必选), 但 Vercel 的二级域名在国内被污染，可能无法访问
-2. 一个正常的 Vercel 账号
+2. 一个可正常使用的 Vercel 账号
 
 ### 步骤
 
@@ -29,5 +29,8 @@
 5. 点击右上角 `Add New...` -> `Project`
 6. 在左侧 `Import Git Repository` 处选择你 Fork 的项目
 
+todo
 
 ## vercel.json
+
+todo
