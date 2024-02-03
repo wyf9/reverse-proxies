@@ -27,6 +27,10 @@
         {
             "source": "/gh/:match*",
             "destination": "https://github.com/:match*"
+        },
+        {
+            "source": "/openai/:match*",
+            "destination": "https://api.openai.com/:match*"
         }
     ]
 }
