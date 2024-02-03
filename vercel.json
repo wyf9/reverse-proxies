@@ -1,16 +1,20 @@
 {
     "rewrites": [
         {
-            "source": "/h1/:path*",
-            "destination": ":path*"
+            "source": "/h1/:site/:path*",
+            "destination": "http://:site/:path*"
         },
         {
-            "source": "/h2/:path*",
-            "destination": "http://:path*"
+            "source": "/h2/:site/:path*",
+            "destination": "https://:site/:path*"
         },
         {
-            "source": "/h3/:path*",
-            "destination": "https://:path*"
+            "source": "/h3/http://:site/:path*",
+            "destination": "http://:site/:path*"
+        },
+        {
+            "source": "/h4/https://:site/:path*",
+            "destination": "https://:site/:path*"
         },
         {
             "source": "/t/:path*",
