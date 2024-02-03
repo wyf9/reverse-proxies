@@ -9,14 +9,6 @@
             "destination": "https://:site/:path*"
         },
         {
-            "source": "/h3/http://:site/:path*",
-            "destination": "http://:site/:path*"
-        },
-        {
-            "source": "/h4/https://:site/:path*",
-            "destination": "https://:site/:path*"
-        },
-        {
             "source": "/t/:path*",
             "destination": "https://ghsrc.wyf9.top/:path*"
         },
