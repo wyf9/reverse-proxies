@@ -6,12 +6,11 @@ async function handleRequest(request) {
   const url = new URL(request.url);
 
   // 如果直接访问站点，重定向至项目地址
-  if (url.pathname === '/') {
+  if (url.pathname === "/" || url.pathname === "/px/") {
     return Response.redirect("https://t.wyf9.top/rpxs-gh", 302);
   }
 
-  // const actualUrlStr = url.pathname.replace("/","") + url.search + url.hash
-  const actualUrlStr = url.pathname + url.search + url.hash;
+  const actualUrlStr = url.pathname.replace("/px/","") + url.search + url.hash
 
   const actualUrl = new URL(actualUrlStr)
 

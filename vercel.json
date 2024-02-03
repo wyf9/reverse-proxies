@@ -1,11 +1,11 @@
 {
     "rewrites": [
         {
-            "source": "/_/:site/:path*",
+            "source": "/px/:site/:path*",
             "destination": "http://:site/:path*"
         },
         {
-            "source": "/_s/:site/:path*",
+            "source": "/pxs/:site/:path*",
             "destination": "https://:site/:path*"
         },
         {

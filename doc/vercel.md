@@ -13,9 +13,9 @@ Vercel 的免费计划每月限制 **100GB** 出站流量, 可付费升级计划
 > 可自行在 `vercel.json` 中修改
 
 1. 任意网址
-   - HTTP: 将网址的域名部分替换为 `<自定义域名/_/>`
-   - HTTPS: 将网址的域名部分替换为 `<自定义域名/_s/>`
-   - 示例: `https://github.com/wyf9/reverse-proxies` -> `https://<你的域名>/_s/github.com/wyf9/reverse-proxies`
+   - HTTP: 将网址的域名部分替换为 `<自定义域名/px/>`
+   - HTTPS: 将网址的域名部分替换为 `<自定义域名/pxs/>`
+   - 示例: `https://github.com/wyf9/reverse-proxies` -> `https://<你的域名>/pxs/github.com/wyf9/reverse-proxies`
 2. 自定义网址
    - 将网址的域名替换为 `<自定义域名>/<自定义名称>`
    - 示例: `https://github.com/wyf9/reverse-proxies` -> `https://<你的域名>/gh/wyf9/reverse-proxies`
@@ -46,18 +46,18 @@ Vercel 的免费计划每月限制 **100GB** 出站流量, 可付费升级计划
 // ...
 
 {
-            "source": "/_/:site/:path*",
+            "source": "/px/:site/:path*",
             "destination": "http://:site/:path*"
         },
         {
-            "source": "/_s/:site/:path*",
+            "source": "/pxs/:site/:path*",
             "destination": "https://:site/:path*"
         },
 
 // ...
 ```
 
-其中的 `/_/`、`/_s/` 中的路径可替换
+其中的 `/px/`、`/pxs/` 中的路径可替换
 
 ### 自定义网址
 

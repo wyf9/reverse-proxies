@@ -7,21 +7,17 @@
 - OpenAI API
 - And more...
 
-Try now!
+Enjoy!
 
 ## 注意事项
 
 无法反代一些需要登录查看内容的网站(**无法进行登录**)
 
-大部分方案有用量限制(基本使用足够)
-
-部分方案有一点问题，但基本不影响使用
-
 ## 使用
 
 选择下面的一个方案，进入文档部署吧!
 
-- [Cloudflare Workers](/doc/cfworker.md)
+- [Cloudflare Workers](/doc/cfworker.md) *(推荐)*
 - [Vercel](/doc/vercel.md)
 
 ## 贡献
@@ -32,7 +28,7 @@ Try now!
 
 - [Issue](https://github.com/wyf9/reverse-proxies/issues/new)
 - [E-mail](mailto:wyf9@wyf9.top)
-- Discord: @wyf9
+- Discord: [Join Server](https://discord.gg/J4cXKKctcP)
 - QQ: wyf9gh114
 
 ## ~~宇宙~~ 免责声明
