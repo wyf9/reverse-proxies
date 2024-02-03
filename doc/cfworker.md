@@ -8,7 +8,7 @@ Cloudflare 每天限制 `100000` 次 Worker 请求
 
 ## 使用
 
-在访问的网址前加上 `<你的访问域名>/px/` 即可
+在访问的网址前加上你的访问域名即可
 
 如: `https://github.com/wyf9/reverse-proxies` -> `<你的域名>/https://github.com/wyf9/reverse-proxies`
 
