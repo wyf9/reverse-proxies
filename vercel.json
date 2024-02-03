@@ -1,32 +1,16 @@
 {
     "rewrites": [
         {
-            "source": "/h1/:site/:path*",
+            "source": "/_/:site/:path*",
             "destination": "http://:site/:path*"
         },
         {
-            "source": "/h2/:site/:path*",
+            "source": "/_s/:site/:path*",
             "destination": "https://:site/:path*"
         },
         {
-            "source": "/h3/:site/:path*/",
-            "destination": "http://:site/:path*/"
-        },
-        {
-            "source": "/h4/:site/:path*",
-            "destination": "https://:site/:path*/"
-        },
-        {
             "source": "/t/:path*",
             "destination": "https://ghsrc.wyf9.top/:path*"
-        },
-        {
-            "source": "/t/:path*",
-            "destination": "https://ghsrc.wyf9.top/:path*"
-        },
-        {
-            "source": "/_s/:match/:url*/",
-            "destination": "https://:match/:url*/"
         },
         {
             "source": "/_s/:match/:url*/",
@@ -37,24 +21,12 @@
             "destination": "https://ghsrc.wyf9.top/:match*"
         },
         {
-            "source": "/ghsrc/:match*/",
-            "destination": "https://ghsrc.wyf9.top/:match*/"
-        },
-        {
             "source": "/wist/:match*",
             "destination": "https://wist.wyf9.top/:match*"
         },
         {
-            "source": "/wist/:match*/",
-            "destination": "https://wist.wyf9.top/:match*/"
-        },
-        {
             "source": "/gh/:match*",
             "destination": "https://github.com/:match*"
-        },
-        {
-            "source": "/gh/:match*/",
-            "destination": "https://github.com/:match*/"
         }
     ]
 }
