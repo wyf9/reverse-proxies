@@ -21,6 +21,7 @@ Try now!
 
 选择下面的一个方案，进入文档部署吧!
 
+- [Cloudflare Workers](/doc/cfworker.md)
 - [Vercel](/doc/vercel.md)
 
 ## 贡献
@@ -34,6 +35,6 @@ Try now!
 - Discord: @wyf9
 - QQ: wyf9gh114
 
-## ~~宇宙~~免责声明
+## ~~宇宙~~ 免责声明
 
 本项目仅供学习参考使用，请勿将其用于非法用途(后果自负)!!
