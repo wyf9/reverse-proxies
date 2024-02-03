@@ -1,6 +1,18 @@
 {
     "rewrites": [
         {
+            "source": "/h1/:path*",
+            "destination": ":path*"
+        },
+        {
+            "source": "/h2/:path*",
+            "destination": "http://:path*"
+        },
+        {
+            "source": "/h3/:path*",
+            "destination": "https://:path*"
+        },
+        {
             "source": "/t/:path*",
             "destination": "https://ghsrc.wyf9.top/:path*"
         },
