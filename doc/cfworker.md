@@ -21,14 +21,14 @@ Cloudflare 每天限制 `100000` 次 Worker 请求
 
 ### 步骤
 
-> 下面步骤中的名称均为中文，可在 Cloudflare 控制台的右上角切换语言
+> 下面步骤中的名称均为中文，可在 Cloudflare 控制台的右上角切换语言为中文
 
 1. [登录 Cloudflare 控制台](https://dash.cloudflare.com)，并登录
 2. 点击 `Workers 和 Pages`
 ![2](img/cf2.png)
 3. 点击 `创建应用程序` -> `创建 Worker`
 ![3](img/cf3.png)
-4. 随便取一个名字(也是 Cloudflare 的子域名称)，部署
+4. 随便取一个名字(也是 Cloudflare 自带的 `workers.dev` 子域名称)，部署
 ![4](img/cf4.png)
 5. 点击 `编辑代码`
 ![5](img/cf5.png)

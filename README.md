@@ -31,6 +31,6 @@ Enjoy!
 - Discord: [Join Server](https://discord.gg/J4cXKKctcP)
 - QQ: wyf9gh114
 
-## ~~宇宙~~ 免责声明
+## *~~宇宙免责~~*声明
 
 本项目仅供学习参考使用，请勿将其用于非法用途(后果自负)!!
