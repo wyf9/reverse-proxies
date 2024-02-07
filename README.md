@@ -27,7 +27,7 @@ Enjoy!
 如有更多/更好的反代方案或建议，请:
 
 - [Issue](https://github.com/wyf9/reverse-proxies/issues/new)
-- [E-mail](mailto:wyf9@wyf9.top)
+- [E-mail](mailto:wyf9@wyf9.top): wyf9@wyf9.top
 - Discord: [Join Server](https://discord.gg/J4cXKKctcP)
 - QQ: wyf9gh114
 
