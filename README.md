@@ -29,8 +29,7 @@ Enjoy!
 - [Issue](https://github.com/wyf9/reverse-proxies/issues/new)
 - [E-mail](mailto:wyf9@wyf9.top): wyf9@wyf9.top
 - Discord: [Join Server](https://discord.gg/J4cXKKctcP)
-- QQ: wyf9gh114
 
 ## *~~宇宙免责~~*声明
 
-本项目仅供学习参考使用，请勿将其用于非法用途(后果自负)!!
+本项目仅供学习参考，请勿将其用于非法用途，否则后果自负!!
