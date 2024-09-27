@@ -5,13 +5,15 @@
 - GitHub
 - Google
 - OpenAI API
+- APT Proxy
 - And more...
 
 Enjoy!
 
 ## 注意事项
 
-无法反代一些需要登录查看内容的网站(**无法进行登录**)
+- 无法反代一些需要登录查看内容的网站 (**无法进行登录**)
+- 网页链接引用可能会有问题
 
 ## 使用
 
@@ -19,6 +21,10 @@ Enjoy!
 
 - [Cloudflare Workers](/doc/cfworker.md) *(推荐)*
 - [Vercel](/doc/vercel.md)
+
+## Example
+
+- [APT 镜像](./doc/examples.md#apt-proxy)
 
 ## 贡献
 
@@ -28,7 +34,7 @@ Enjoy!
 
 - [Issue](https://github.com/wyf9/reverse-proxies/issues/new)
 - [E-mail](mailto:wyf9@wyf9.top): wyf9@wyf9.top
-- Discord: [Join Server](https://discord.gg/J4cXKKctcP)
+- [More Contacts](https://wyf9.top/#/contact)
 
 ## *~~宇宙免责~~*声明
 

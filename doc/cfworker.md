@@ -1,10 +1,10 @@
 # Cloudflare Workers 部署
 
-> 方法来源: [gaboolic/cloudflare-reverse-proxy](https://github.com/gaboolic/cloudflare-reverse-proxy)
+?> 方法来源: [gaboolic/cloudflare-reverse-proxy](https://github.com/gaboolic/cloudflare-reverse-proxy)
 
 ## 用量限制
 
-Cloudflare 每天限制 `100000` 次 Worker 请求
+Cloudflare Workers Free 计划 每天限制 **100000** 次 Worker *& Pages* 请求
 
 ## 使用
 
@@ -39,3 +39,7 @@ Cloudflare 每天限制 `100000` 次 Worker 请求
 ![7](image.png)
 
 > 默认子域可在 Worker 详情页查看: `<Worker 名称>.<自定义子域>.workers.dev`
+
+> 如有自己的域名可添加到 Cloudflare 后设置 Worker 自定义域名
+
+!> Workers 调用量有限, 请部署自己的 Worker 而不是使用示例中的地址!!!!!!!!!!
