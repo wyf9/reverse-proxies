@@ -55,3 +55,9 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys xxx
 将 `xxx` 改为你报错中的 key *(一个 16 进制值)*
 
 重新运行 `apt update`, 问题应已解决.
+
+### 参考
+
+1. https://lidong.me/blog/mirrors-reverse-proxy/
+2. https://zhuanlan.zhihu.com/p/434498354
+3. https://apt.syncthing.net/
